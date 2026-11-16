@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ayodeb65.github.io/naijapocket/sitemap.xml

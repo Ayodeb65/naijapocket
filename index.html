@@ -1,0 +1,627 @@
+<!doctype html>
+<html lang="en-NG">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>NaijaPocket — More Value. Less Spending. Better Living.</title>
+  <meta name="description" content="NaijaPocket is your everyday Nigerian money, opportunity and protection assistant. Plan your weekly food budget, find legit opportunities and stay safe. Join early access free.">
+  <meta name="theme-color" content="#062419">
+  <link rel="canonical" href="https://ayodeb65.github.io/naijapocket/">
+  <!-- Open Graph / WhatsApp / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="NaijaPocket">
+  <meta property="og:url" content="https://ayodeb65.github.io/naijapocket/">
+  <meta property="og:title" content="NaijaPocket — Make every naira work harder">
+  <meta property="og:description" content="Plan your family's weekly food budget, find legit opportunities and stay safe from scams. Built for Nigerians. Join early access — it's free.">
+  <meta property="og:image" content="https://ayodeb65.github.io/naijapocket/assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="NaijaPocket — More Value. Less Spending. Better Living.">
+  <meta property="og:locale" content="en_NG">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="NaijaPocket — Make every naira work harder">
+  <meta name="twitter:description" content="Your everyday Nigerian money, opportunity and protection assistant. Join early access free.">
+  <meta name="twitter:image" content="https://ayodeb65.github.io/naijapocket/assets/og-image.jpg">
+  <!-- Icons / PWA -->
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/icon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add("js")</script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebApplication","name":"NaijaPocket","applicationCategory":"FinanceApplication","operatingSystem":"Android, iOS, Web","description":"An everyday Nigerian money, opportunity and protection assistant.","offers":[{"@type":"Offer","name":"Free","price":"0","priceCurrency":"NGN"},{"@type":"Offer","name":"Pocket Plus","price":"500","priceCurrency":"NGN"},{"@type":"Offer","name":"Pocket Pro","price":"1000","priceCurrency":"NGN"}]}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.2 4.2L19 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-basket" viewBox="0 0 24 24"><path d="M3.5 9.5h17l-1.6 9.1a2 2 0 0 1-2 1.6H7.1a2 2 0 0 1-2-1.6zM8 9.5l3-5.5M16 9.5l-3-5.5M9 13.5v3M15 13.5v3M12 13.5v3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-brief" viewBox="0 0 24 24"><path d="M4 8h16a1 1 0 0 1 1 1v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9a1 1 0 0 1 1-1zM9 8V6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-mega" viewBox="0 0 24 24"><path d="M4 10v4a1 1 0 0 0 1 1h2l6 4V5L7 9H5a1 1 0 0 0-1 1zM17 9a4 4 0 0 1 0 6M7 15l1 4.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l7.5 3v5.5c0 4.6-3.2 8.3-7.5 9.5-4.3-1.2-7.5-4.9-7.5-9.5V6zM8.8 12.2l2.2 2.2 4.3-4.4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7.5-4.4-7.5-10.1A4.3 4.3 0 0 1 12 7.3a4.3 4.3 0 0 1 7.5 2.6C19.5 15.6 12 20 12 20zM8 12h2.2l1.3-2.2 1.8 4.2 1.2-2H16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2.5a9.45 9.45 0 0 0-8.1 14.33L2.5 21.5l4.8-1.4A9.46 9.46 0 1 0 12.04 2.5zm0 17.2a7.74 7.74 0 0 1-3.95-1.08l-.28-.17-2.85.83.85-2.77-.18-.29a7.75 7.75 0 1 1 6.41 3.48zm4.25-5.8c-.23-.12-1.38-.68-1.6-.76-.21-.08-.37-.12-.52.12-.16.23-.6.76-.74.91-.13.16-.27.18-.5.06a6.35 6.35 0 0 1-3.15-2.75c-.24-.41.24-.38.68-1.27.08-.16.04-.29-.02-.41-.06-.12-.52-1.26-.72-1.72-.19-.45-.38-.39-.52-.4h-.45a.86.86 0 0 0-.62.3 2.6 2.6 0 0 0-.82 1.94 4.53 4.53 0 0 0 .95 2.4 10.35 10.35 0 0 0 3.97 3.5c1.47.64 2.05.69 2.78.58.45-.07 1.38-.56 1.57-1.11.2-.55.2-1.01.13-1.11-.05-.1-.21-.16-.44-.28z"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><path d="M6 10.5h12a1 1 0 0 1 1 1V19a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7.5a1 1 0 0 1 1-1zM8 10.5V8a4 4 0 1 1 8 0v2.5M12 14.5v2.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="i-tag" viewBox="0 0 24 24"><path d="M3.5 12.2V4.5a1 1 0 0 1 1-1h7.7l8.3 8.3a1.4 1.4 0 0 1 0 2l-6.7 6.7a1.4 1.4 0 0 1-2 0zM8 8h.01" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12zM12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-trash" viewBox="0 0 24 24"><path d="M4 7h16M9.5 7V4.5h5V7M6 7l1 12.2A2 2 0 0 0 9 21h6a2 2 0 0 0 2-1.8L18 7M10 11v6M14 11v6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-signal" viewBox="0 0 24 24"><path d="M4 18v-2M9 18v-5M14 18V9M19 18V5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+    <symbol id="i-share" viewBox="0 0 24 24"><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4M18 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM6 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM18 22a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+  </svg>
+
+  <!-- ============ HEADER ============ -->
+  <header class="nav" id="top">
+    <div class="wrap nav__in">
+      <a class="brand" href="#top" aria-label="NaijaPocket home">
+        <img src="assets/logo-mark.svg" width="34" height="34" alt="">
+        <span class="brand__word">Naija<b>Pocket</b></span>
+      </a>
+      <nav class="nav__links" aria-label="Main">
+        <a href="#modules">Modules</a>
+        <a href="#how">How it works</a>
+        <a href="#teaser">Budget teaser</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a class="btn btn--gold btn--sm" href="#join">Get early access</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="wrap hero__grid">
+        <div class="hero__copy">
+          <p class="pill"><span class="pill__dot"></span>Early access open · PocketSaver launches first</p>
+          <h1 id="hero-title" class="display">Make every <span class="hl">naira</span> work harder.</h1>
+          <p class="lead">NaijaPocket is your everyday money, opportunity and protection assistant — built for Nigerians, light on data, and easy to share on WhatsApp. Plan your family's food budget, find legit opportunities and stay one step ahead of scammers.</p>
+          <div class="hero__cta">
+            <a class="btn btn--gold btn--lg" href="#join">Join early access — it's free <svg width="18" height="18"><use href="#i-arrow"/></svg></a>
+            <a class="btn btn--ghost btn--lg" href="#teaser">Try the budget teaser</a>
+          </div>
+          <ul class="hero__ticks" aria-label="Highlights">
+            <li><svg width="16" height="16"><use href="#i-check"/></svg>Free to join</li>
+            <li><svg width="16" height="16"><use href="#i-check"/></svg>Made for low data</li>
+            <li><svg width="16" height="16"><use href="#i-check"/></svg>No app store needed</li>
+          </ul>
+        </div>
+
+        <div class="hero__visual" aria-label="Preview of the PocketSaver weekly food budget screen" role="img">
+          <div class="glow" aria-hidden="true"></div>
+          <div class="phone" aria-hidden="true">
+            <div class="phone__screen">
+              <div class="ph-status"><span>9:41</span><span class="ph-island"></span><span class="ph-sig"><svg width="14" height="14"><use href="#i-signal"/></svg>4G</span></div>
+              <div class="ph-head">
+                <div>
+                  <p class="ph-muted">PocketSaver · This week</p>
+                  <p class="ph-title">Weekly food budget</p>
+                </div>
+                <img src="assets/logo-mark.svg" width="30" height="30" alt="">
+              </div>
+              <div class="ph-card ph-card--hero">
+                <div class="ph-ring">
+                  <svg viewBox="0 0 80 80"><circle cx="40" cy="40" r="33" class="ring-bg"/><circle cx="40" cy="40" r="33" class="ring-fg"/></svg>
+                  <div class="ph-ring__txt"><b>87%</b><span>planned</span></div>
+                </div>
+                <div class="ph-amt">
+                  <p class="ph-muted">Budget</p>
+                  <p class="ph-big">₦25,000</p>
+                  <p class="ph-left"><span>₦3,200</span> left to spare</p>
+                </div>
+              </div>
+              <div class="ph-row">
+                <div class="ph-mini"><span class="ph-muted">Household</span><b>4 people</b></div>
+                <div class="ph-mini"><span class="ph-muted">Per person / day</span><b>₦893</b></div>
+              </div>
+              <div class="ph-card">
+                <p class="ph-sub">Where your money goes <em>Example plan</em></p>
+                <ul class="ph-bars">
+                  <li><span>Staples</span><i style="--w:44%"></i><b>₦9,500</b></li>
+                  <li><span>Protein</span><i style="--w:28%;--c:#E9A23B"></i><b>₦6,000</b></li>
+                  <li><span>Veg &amp; fruit</span><i style="--w:17%;--c:#3FB37F"></i><b>₦3,800</b></li>
+                  <li><span>Others</span><i style="--w:11%;--c:#9BB8AA"></i><b>₦2,500</b></li>
+                </ul>
+              </div>
+              <div class="ph-meals">
+                <span><b>Mon</b>Beans &amp; plantain</span>
+                <span><b>Tue</b>Jollof &amp; egg</span>
+                <span><b>Wed</b>Yam &amp; egg sauce</span>
+              </div>
+              <div class="ph-tip"><span>Today's tip</span>Cook beans in bulk once and portion for the week — it saves fuel and time.</div>
+              <div class="ph-btn"><svg width="15" height="15"><use href="#i-wa"/></svg>Share plan on WhatsApp</div>
+              <nav class="ph-nav"><span class="on">Home</span><span>Save</span><span>Jobs</span><span>Tools</span><span>Profile</span></nav>
+            </div>
+          </div>
+          <div class="float float--a" aria-hidden="true">
+            <span class="float__icon"><svg width="18" height="18"><use href="#i-basket"/></svg></span>
+            <div><b>Shopping list ready</b><span>14 items · grouped by market</span></div>
+          </div>
+          <div class="float float--b" aria-hidden="true">
+            <p class="float__k">Every price clearly labelled</p>
+            <div class="chips"><span class="chip chip--v">Verified</span><span class="chip chip--e">Estimated</span><span class="chip chip--c">Community</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="ribbon" aria-hidden="true">
+        <div class="ribbon__track">
+          <span>More Value</span><i>✦</i><span>Less Spending</span><i>✦</i><span>Better Living</span><i>✦</i><span>Made for Naija</span><i>✦</i>
+          <span>More Value</span><i>✦</i><span>Less Spending</span><i>✦</i><span>Better Living</span><i>✦</i><span>Made for Naija</span><i>✦</i>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PAIN ============ -->
+    <section class="section pain" aria-labelledby="pain-title">
+      <div class="wrap">
+        <div class="sec-head sec-head--split reveal">
+          <p class="eyebrow">Why NaijaPocket</p>
+          <h2 id="pain-title" class="h2">Life no easy. <span class="muted">But your money fit work harder.</span></h2>
+          <p class="sub">Every day, Nigerians juggle rising costs, fake opportunities and scam messages — often with no simple, trusted place to turn. We're building one.</p>
+        </div>
+        <div class="pain__grid">
+          <article class="pain__card reveal">
+            <span class="pain__n">01</span>
+            <h3>Market prices keep moving</h3>
+            <p>Your money buys less than it used to. Planning meals for the whole family has become a weekly headache.</p>
+          </article>
+          <article class="pain__card reveal">
+            <span class="pain__n">02</span>
+            <h3>Too many fake job offers</h3>
+            <p>Real opportunities are buried under "pay to apply" schemes and misleading posts on every group chat.</p>
+          </article>
+          <article class="pain__card reveal">
+            <span class="pain__n">03</span>
+            <h3>Small businesses need customers</h3>
+            <p>You sell good things, but writing adverts and follow-up messages takes time and money you don't have.</p>
+          </article>
+          <article class="pain__card reveal">
+            <span class="pain__n">04</span>
+            <h3>Scams are getting smarter</h3>
+            <p>Suspicious links, fake alerts and "urgent transfer" requests land in your WhatsApp every week.</p>
+          </article>
+          <article class="pain__card reveal">
+            <span class="pain__n">05</span>
+            <h3>Finding care shouldn't be hard</h3>
+            <p>Knowing where the nearest clinic is, and getting health information you can trust, should be simple.</p>
+          </article>
+          <article class="pain__card pain__card--cta reveal">
+            <p>One pocket. Five everyday problems. Built step by step, with you.</p>
+            <a href="#modules" class="link-arrow">See the modules <svg width="16" height="16"><use href="#i-arrow"/></svg></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MODULES ============ -->
+    <section class="section modules" id="modules" aria-labelledby="mod-title">
+      <div class="wrap">
+        <div class="sec-head sec-head--split reveal">
+          <p class="eyebrow">The NaijaPocket family</p>
+          <h2 id="mod-title" class="h2">Five pockets. <span class="muted">One simple app.</span></h2>
+          <p class="sub">We're launching one module at a time so each one is genuinely useful before the next arrives.</p>
+        </div>
+
+        <div class="bento">
+          <article class="mod mod--saver reveal">
+            <div class="mod__top">
+              <span class="mod__icon"><svg width="24" height="24"><use href="#i-basket"/></svg></span>
+              <span class="badge badge--live">Launching first</span>
+            </div>
+            <h3>PocketSaver</h3>
+            <p class="mod__lead">Beat the cost of living. Plan your household spending and stretch your food budget further.</p>
+            <ul class="ticks">
+              <li><svg width="16" height="16"><use href="#i-check"/></svg>Household budget calculator</li>
+              <li><svg width="16" height="16"><use href="#i-check"/></svg>Weekly food budget planner</li>
+              <li><svg width="16" height="16"><use href="#i-check"/></svg>Affordable meal plans for your budget &amp; family size</li>
+              <li><svg width="16" height="16"><use href="#i-check"/></svg>Automatic shopping lists</li>
+              <li><svg width="16" height="16"><use href="#i-check"/></svg>Community market prices — with location &amp; date</li>
+              <li><svg width="16" height="16"><use href="#i-check"/></svg>Shareable weekly budget report</li>
+            </ul>
+          </article>
+
+          <article class="mod mod--jobs reveal">
+            <div class="mod__top">
+              <span class="mod__icon"><svg width="24" height="24"><use href="#i-brief"/></svg></span>
+              <span class="badge badge--next">Up next</span>
+            </div>
+            <h3>PocketJobs</h3>
+            <p class="mod__lead">Find real opportunities — and skip the fake ones.</p>
+            <ul class="ticks">
+              <li><svg width="16" height="16"><use href="#i-check"/></svg>Curated Nigerian &amp; remote jobs</li>
+              <li><svg width="16" height="16"><use href="#i-check"/></svg>Scholarships &amp; training</li>
+              <li><svg width="16" height="16"><use href="#i-check"/></svg>CV, cover letter &amp; interview help</li>
+              <li><svg width="16" height="16"><use href="#i-check"/></svg>Clear verification status on every listing</li>
+            </ul>
+          </article>
+
+          <article class="mod mod--soon reveal">
+            <div class="mod__top">
+              <span class="mod__icon"><svg width="22" height="22"><use href="#i-mega"/></svg></span>
+              <span class="badge">Coming soon</span>
+            </div>
+            <h3>PocketBusiness</h3>
+            <p>AI-assisted adverts, WhatsApp promo messages, captions and product descriptions for your small business.</p>
+          </article>
+          <article class="mod mod--soon reveal">
+            <div class="mod__top">
+              <span class="mod__icon"><svg width="22" height="22"><use href="#i-shield"/></svg></span>
+              <span class="badge">Coming soon</span>
+            </div>
+            <h3>PocketSafe</h3>
+            <p>Check suspicious messages and links, learn the warning signs, and run a quick check before you transfer.</p>
+          </article>
+          <article class="mod mod--soon reveal">
+            <div class="mod__top">
+              <span class="mod__icon"><svg width="22" height="22"><use href="#i-heart"/></svg></span>
+              <span class="badge">Coming soon</span>
+            </div>
+            <h3>PocketHealth</h3>
+            <p>Find clinics near you, set medication reminders and read reliable general health information.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ HOW IT WORKS ============ -->
+    <section class="section how" id="how" aria-labelledby="how-title">
+      <div class="wrap">
+        <div class="sec-head sec-head--split reveal">
+          <p class="eyebrow">How it works</p>
+          <h2 id="how-title" class="h2">Simple as one, two, three.</h2>
+          <p class="sub">No long forms, no complicated charts. Just practical help you can use today and share with the people you care about.</p>
+        </div>
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step__n">1</span>
+            <h3>Tell us your situation</h3>
+            <p>Your household size, weekly budget, state and what you like to eat. No long forms, no stress.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__n">2</span>
+            <h3>Get a practical plan</h3>
+            <p>NaijaPocket suggests affordable meals and builds your shopping list around the money you actually have.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__n">3</span>
+            <h3>Save it, share it</h3>
+            <p>Keep your plan on your phone and send it to family or your WhatsApp group in one tap.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ TEASER ============ -->
+    <section class="section teaser" id="teaser" aria-labelledby="teaser-title">
+      <div class="wrap">
+        <div class="teaser__panel reveal">
+          <div class="teaser__copy">
+            <p class="eyebrow eyebrow--gold">Feed Your Family Challenge</p>
+            <h2 id="teaser-title" class="h2 h2--light">How far will your weekly budget go?</h2>
+            <p class="sub sub--light">Pick your household size and weekly food budget. We'll break it down per person, per day — a small taste of what PocketSaver will do for you.</p>
+            <p class="teaser__note">This teaser only does the maths on your numbers. It doesn't use or claim any market prices.</p>
+          </div>
+
+          <form class="calc" id="calc" aria-label="Feed your family budget teaser" onsubmit="return false">
+            <div class="calc__field">
+              <span class="calc__label" id="hh-label">Household size</span>
+              <div class="stepper" role="group" aria-labelledby="hh-label">
+                <button type="button" class="stepper__btn" data-step="-1" aria-label="Fewer people">−</button>
+                <output id="hh" class="stepper__val" aria-live="polite">4</output>
+                <button type="button" class="stepper__btn" data-step="1" aria-label="More people">+</button>
+                <span class="stepper__unit" id="hh-unit">people</span>
+              </div>
+            </div>
+            <div class="calc__field">
+              <label class="calc__label" for="budget">Weekly food budget</label>
+              <div class="money">
+                <span class="money__sym" aria-hidden="true">₦</span>
+                <input id="budget" inputmode="numeric" autocomplete="off" value="25,000" aria-describedby="budget-help">
+              </div>
+              <div class="quick" id="budget-help" aria-label="Quick amounts">
+                <button type="button" data-amt="10000">₦10k</button>
+                <button type="button" data-amt="20000">₦20k</button>
+                <button type="button" data-amt="35000">₦35k</button>
+                <button type="button" data-amt="50000">₦50k</button>
+              </div>
+            </div>
+            <div class="calc__result" aria-live="polite">
+              <div class="res res--main">
+                <span>Per person, per day</span>
+                <b id="r-ppd">₦893</b>
+              </div>
+              <div class="res">
+                <span>Per meal (3 a day)</span>
+                <b id="r-meal">₦298</b>
+              </div>
+              <div class="res">
+                <span>Household, per day</span>
+                <b id="r-day">₦3,571</b>
+              </div>
+            </div>
+            <p class="calc__msg" id="r-msg">PocketSaver will turn ₦25,000 into a week of meals and a shopping list for 4 people — matched to prices in your area.</p>
+            <a class="btn btn--wa" id="calc-share" href="#" target="_blank" rel="noopener"><svg width="18" height="18"><use href="#i-wa"/></svg>Dare a friend on WhatsApp</a>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRICING ============ -->
+    <section class="section pricing" id="pricing" aria-labelledby="price-title">
+      <div class="wrap">
+        <div class="sec-head sec-head--center reveal">
+          <p class="eyebrow">Founding-member pricing</p>
+          <h2 id="price-title" class="h2">Start free. <span class="hl-dark">Upgrade when it pays for itself.</span></h2>
+          <p class="sub">Joining early access is free and needs no card. Paid plans only begin after launch — and early members get first access to founding prices.</p>
+        </div>
+        <div class="plans">
+          <article class="plan reveal">
+            <h3>Free</h3>
+            <p class="plan__price"><b>₦0</b><span>forever</span></p>
+            <p class="plan__desc">Everything you need to get started.</p>
+            <ul class="ticks">
+              <li><svg width="16" height="16"><use href="#i-check"/></svg>Basic budget &amp; food tools</li>
+              <li><svg width="16" height="16"><use href="#i-check"/></svg>Selected opportunity listings</li>
+              <li><svg width="16" height="16"><use href="#i-check"/></svg>Share plans on WhatsApp</li>
+              <li><svg width="16" height="16"><use href="#i-check"/></svg>Essential scam-safety info — always free</li>
+            </ul>
+            <a class="btn btn--outline" href="#join">Join free</a>
+          </article>
+          <article class="plan plan--pop reveal">
+            <span class="plan__flag">Founding favourite</span>
+            <h3>Pocket Plus</h3>
+            <p class="plan__price"><b>₦500</b><span>/ month</span></p>
+            <p class="plan__desc">More tools, made personal to you.</p>
+            <ul class="ticks">
+              <li><svg width="16" height="16"><use href="#i-check"/></svg>Everything in Free</li>
+              <li><svg width="16" height="16"><use href="#i-check"/></svg>Expanded PocketSaver &amp; PocketJobs tools</li>
+              <li><svg width="16" height="16"><use href="#i-check"/></svg>Personalised meal plans &amp; shopping lists</li>
+              <li><svg width="16" height="16"><use href="#i-check"/></svg>Save your plans &amp; preferences</li>
+            </ul>
+            <a class="btn btn--gold" href="#join">Get early access</a>
+          </article>
+          <article class="plan reveal">
+            <h3>Pocket Pro</h3>
+            <p class="plan__price"><b>₦1,000</b><span>/ month</span></p>
+            <p class="plan__desc">For power users and hustlers.</p>
+            <ul class="ticks">
+              <li><svg width="16" height="16"><use href="#i-check"/></svg>Everything in Plus</li>
+              <li><svg width="16" height="16"><use href="#i-check"/></svg>Higher usage limits</li>
+              <li><svg width="16" height="16"><use href="#i-check"/></svg>Advanced features as they launch</li>
+              <li><svg width="16" height="16"><use href="#i-check"/></svg>First access to new modules</li>
+            </ul>
+            <a class="btn btn--outline" href="#join">Get early access</a>
+          </article>
+        </div>
+        <p class="plans__foot">Founding-member prices shown. Cancel anytime once paid plans launch.</p>
+      </div>
+    </section>
+
+    <!-- ============ TRUST ============ -->
+    <section class="section trust" aria-labelledby="trust-title">
+      <div class="wrap trust__grid">
+        <div class="sec-head reveal">
+          <p class="eyebrow eyebrow--gold">Our promises</p>
+          <h2 id="trust-title" class="h2 h2--light">Built on trust, <span class="muted-light">not tricks.</span></h2>
+          <p class="sub sub--light">Your money, your data and your peace of mind matter. Here's what we commit to from day one.</p>
+        </div>
+        <ul class="promises">
+          <li class="promise reveal"><span class="promise__i"><svg width="22" height="22"><use href="#i-lock"/></svg></span><div><h3>We will never sell your data</h3><p>Your details are used only to run NaijaPocket and keep you updated — never sold to anyone.</p></div></li>
+          <li class="promise reveal"><span class="promise__i"><svg width="22" height="22"><use href="#i-tag"/></svg></span><div><h3>Verified vs community, always labelled</h3><p>Prices, jobs and tips show whether they're verified, estimated or community-submitted — with date and location.</p></div></li>
+          <li class="promise reveal"><span class="promise__i"><svg width="22" height="22"><use href="#i-eye"/></svg></span><div><h3>Honest about what we know</h3><p>We'll flag warning signs clearly, but we'll never pretend to guarantee a link, offer or transfer is safe.</p></div></li>
+          <li class="promise reveal"><span class="promise__i"><svg width="22" height="22"><use href="#i-trash"/></svg></span><div><h3>Your data, your control</h3><p>We follow the Nigeria Data Protection Act. Ask us anytime to see or delete your information.</p></div></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ JOIN ============ -->
+    <section class="section join" id="join" aria-labelledby="join-title">
+      <div class="wrap join__grid">
+        <div class="join__copy reveal">
+          <p class="eyebrow">Early access</p>
+          <h2 id="join-title" class="h2">Be one of our first <span class="hl-dark">200 founding members.</span></h2>
+          <p class="sub">Get in early, help shape NaijaPocket, and be first in line when PocketSaver opens. It takes less than a minute.</p>
+          <ul class="perks">
+            <li><span><svg width="16" height="16"><use href="#i-check"/></svg></span>First access to PocketSaver when it launches</li>
+            <li><span><svg width="16" height="16"><use href="#i-check"/></svg></span>Founding-member pricing on paid plans</li>
+            <li><span><svg width="16" height="16"><use href="#i-check"/></svg></span>A say in what we build next</li>
+            <li><span><svg width="16" height="16"><use href="#i-check"/></svg></span>No spam. No wahala. Leave anytime.</li>
+          </ul>
+        </div>
+
+        <div class="form-card reveal">
+          <form id="signup" novalidate>
+            <div class="form-head">
+              <h3>Join the early-access list</h3>
+              <p>Free · No card needed</p>
+            </div>
+            <div class="field">
+              <label for="f-name">Full name</label>
+              <input id="f-name" name="name" type="text" autocomplete="name" placeholder="e.g. Amaka Okafor" required maxlength="80" aria-describedby="e-name">
+              <p class="err" id="e-name" aria-live="polite"></p>
+            </div>
+            <div class="field">
+              <label for="f-phone">WhatsApp number</label>
+              <div class="phone-in">
+                <span class="phone-in__cc" aria-hidden="true"><span class="flag"></span>+234</span>
+                <input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel-national" placeholder="803 123 4567" required maxlength="18" aria-describedby="e-phone h-phone">
+              </div>
+              <p class="hint" id="h-phone">We'll only use this to send you NaijaPocket updates.</p>
+              <p class="err" id="e-phone" aria-live="polite"></p>
+            </div>
+            <div class="field">
+              <label for="f-state">State</label>
+              <div class="select">
+                <select id="f-state" name="state" required aria-describedby="e-state">
+                  <option value="">Select your state</option>
+                  <option>Abia</option>
+                  <option>Adamawa</option>
+                  <option>Akwa Ibom</option>
+                  <option>Anambra</option>
+                  <option>Bauchi</option>
+                  <option>Bayelsa</option>
+                  <option>Benue</option>
+                  <option>Borno</option>
+                  <option>Cross River</option>
+                  <option>Delta</option>
+                  <option>Ebonyi</option>
+                  <option>Edo</option>
+                  <option>Ekiti</option>
+                  <option>Enugu</option>
+                  <option>FCT – Abuja</option>
+                  <option>Gombe</option>
+                  <option>Imo</option>
+                  <option>Jigawa</option>
+                  <option>Kaduna</option>
+                  <option>Kano</option>
+                  <option>Katsina</option>
+                  <option>Kebbi</option>
+                  <option>Kogi</option>
+                  <option>Kwara</option>
+                  <option>Lagos</option>
+                  <option>Nasarawa</option>
+                  <option>Niger</option>
+                  <option>Ogun</option>
+                  <option>Ondo</option>
+                  <option>Osun</option>
+                  <option>Oyo</option>
+                  <option>Plateau</option>
+                  <option>Rivers</option>
+                  <option>Sokoto</option>
+                  <option>Taraba</option>
+                  <option>Yobe</option>
+                  <option>Zamfara</option>
+                  <option>Outside Nigeria</option>
+                </select>
+              </div>
+              <p class="err" id="e-state" aria-live="polite"></p>
+            </div>
+            <fieldset class="field">
+              <legend>What interests you most? <span class="opt">Pick any</span></legend>
+              <div class="checks" aria-describedby="e-int">
+                <label class="check"><input type="checkbox" name="interests" value="PocketSaver" checked><span>PocketSaver</span></label>
+                <label class="check"><input type="checkbox" name="interests" value="PocketJobs"><span>PocketJobs</span></label>
+                <label class="check"><input type="checkbox" name="interests" value="PocketBusiness"><span>PocketBusiness</span></label>
+                <label class="check"><input type="checkbox" name="interests" value="PocketSafe"><span>PocketSafe</span></label>
+                <label class="check"><input type="checkbox" name="interests" value="PocketHealth"><span>PocketHealth</span></label>
+              </div>
+              <p class="err" id="e-int" aria-live="polite"></p>
+            </fieldset>
+            <div class="hp" aria-hidden="true">
+              <label for="f-web">Leave this empty</label>
+              <input id="f-web" name="website" type="text" tabindex="-1" autocomplete="off">
+            </div>
+            <div class="field">
+              <label class="consent">
+                <input type="checkbox" id="f-consent" name="consent" required aria-describedby="e-consent">
+                <span>I agree that NaijaPocket can store my details and contact me on WhatsApp about early access. I can opt out anytime. <a href="privacy.html">Privacy notice</a></span>
+              </label>
+              <p class="err" id="e-consent" aria-live="polite"></p>
+            </div>
+            <button class="btn btn--gold btn--lg btn--block" type="submit" id="submit">
+              <span class="btn__label">Join early access</span>
+              <span class="spinner" aria-hidden="true"></span>
+            </button>
+            <p class="err err--form" id="e-form" aria-live="assertive"></p>
+          </form>
+
+          <div class="success" id="success" hidden tabindex="-1">
+            <div class="success__badge" aria-hidden="true"><svg width="34" height="34"><use href="#i-check"/></svg></div>
+            <h3>You're in, <span id="s-name">friend</span>!</h3>
+            <p>Welcome to the NaijaPocket family. We'll message you on WhatsApp as soon as early access opens.</p>
+            <a class="btn btn--wa btn--lg btn--block" id="community-link" href="#" target="_blank" rel="noopener"><svg width="20" height="20"><use href="#i-wa"/></svg>Follow our WhatsApp Channel</a>
+            <p class="success__or">Know someone who'll love this?</p>
+            <a class="btn btn--outline btn--block" id="share-link" href="#" target="_blank" rel="noopener"><svg width="18" height="18"><use href="#i-share"/></svg>Share with friends on WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section faq" id="faq" aria-labelledby="faq-title">
+      <div class="wrap faq__grid">
+        <div class="sec-head reveal">
+          <p class="eyebrow">FAQ</p>
+          <h2 id="faq-title" class="h2">Questions? <span class="muted">We get am.</span></h2>
+          <p class="sub">Still unsure? Follow our WhatsApp Channel for updates, tips and launch news.</p>
+        </div>
+        <div class="faq__list">
+          <details class="qa reveal" open>
+            <summary>What exactly is NaijaPocket?</summary>
+            <p>An everyday assistant for Nigerians that helps you save money, find genuine opportunities and protect yourself — all in one simple app that works in your phone's browser.</p>
+          </details>
+          <details class="qa reveal">
+            <summary>Is it really free to join?</summary>
+            <p>Yes. Joining early access costs nothing and needs no card. When NaijaPocket launches, a free plan will always be available. Pocket Plus and Pocket Pro are optional upgrades.</p>
+          </details>
+          <details class="qa reveal">
+            <summary>Do I need to download anything from the Play Store?</summary>
+            <p>No. NaijaPocket is a web app: it opens in your phone's browser and you can add it to your home screen like a normal app. It's designed to stay light on data and work well on everyday Android phones.</p>
+          </details>
+          <details class="qa reveal">
+            <summary>When will it launch?</summary>
+            <p>PocketSaver comes first, followed by PocketJobs. Early-access members will be the first to know — and the first to try it — through WhatsApp.</p>
+          </details>
+          <details class="qa reveal">
+            <summary>Where do the food prices come from?</summary>
+            <p>PocketSaver will combine verified, estimated and community-submitted prices. Every price will be clearly labelled with where it came from, the location and the date — we'll never present an unverified price as confirmed.</p>
+          </details>
+          <details class="qa reveal">
+            <summary>What will you do with my phone number?</summary>
+            <p>We'll use it only to send you NaijaPocket updates on WhatsApp. We never sell your data, and you can ask us to delete it anytime. Read our <a href="privacy.html">privacy notice</a>.</p>
+          </details>
+          <details class="qa reveal">
+            <summary>Will PocketHealth diagnose illnesses?</summary>
+            <p>No. PocketHealth will help you find clinics, set reminders and read general health information. It won't give diagnoses or prescribe medication — always see a qualified health professional.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FINAL CTA ============ -->
+    <section class="final" aria-labelledby="final-title">
+      <div class="wrap">
+        <div class="final__card reveal">
+          <img src="assets/logo-mark.svg" width="56" height="56" alt="" class="final__mark">
+          <h2 id="final-title" class="display display--sm">More value. Less spending. <span class="hl">Better living.</span></h2>
+          <p>Join the movement of Nigerians making smarter everyday money moves.</p>
+          <a class="btn btn--gold btn--lg" href="#join">Get early access — free <svg width="18" height="18"><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot__in">
+      <div class="foot__brand">
+        <a class="brand brand--light" href="#top" aria-label="NaijaPocket home">
+          <img src="assets/logo-mark.svg" width="30" height="30" alt="">
+          <span class="brand__word">Naija<b>Pocket</b></span>
+        </a>
+        <p>Your everyday Nigerian money, opportunity and protection assistant.</p>
+      </div>
+      <nav class="foot__links" aria-label="Footer">
+        <a href="#modules">Modules</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="#join">Early access</a>
+      </nav>
+    </div>
+    <div class="wrap foot__base">
+      <p>© <span id="yr">2026</span> NaijaPocket. Made with love in Nigeria <span class="flag" role="img" aria-label="Nigerian flag"></span></p>
+      <p>NaijaPocket is not a bank and does not hold your money.</p>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
