@@ -1,0 +1,9 @@
+{
+  "name": "naijapocket",
+  "private": true,
+  "type": "module",
+  "description": "Static NaijaPocket site. No build step and no dependencies. Tests run with node --test.",
+  "scripts": {
+    "test": "node --test app/js/logic.test.mjs"
+  }
+}

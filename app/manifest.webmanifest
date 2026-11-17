@@ -1,0 +1,21 @@
+{
+  "name": "NaijaPocket",
+  "short_name": "NaijaPocket",
+  "description": "More Value. Less Spending. Better Living. Budgets, opportunities, business records, scam awareness and health notes — stored on your phone.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#062419",
+  "theme_color": "#062419",
+  "lang": "en-NG",
+  "icons": [
+    { "src": "../assets/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "../assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "../assets/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "PocketSaver", "url": "./#/save", "description": "Budgets, food and prices" },
+    { "name": "Check a message", "url": "./#/safe/message", "description": "Scam warning check" }
+  ]
+}
