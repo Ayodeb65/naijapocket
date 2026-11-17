@@ -51,6 +51,12 @@ After publishing (e.g. GitHub Pages: `https://<username>.github.io/<repo>/`):
   absolute `og:image` URL.
 - Replace `privacy@naijapocket.example` in `privacy.html` with a real contact email.
 
+## The app
+
+The product itself lives in `app/` and is a static PWA. Open `app/index.html` (on GitHub Pages: `https://ayodeb65.github.io/naijapocket/app/`). There is no build step. User data stays in IndexedDB. See `app/data/README.md` for the stores and the future Neon sketch (`app/data/schema.sql`), which is not connected.
+
+Run the maths tests with `npm test` (Node only, no install).
+
 ## Files
 
 | File | What it is |
